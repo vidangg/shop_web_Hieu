@@ -1,0 +1,9 @@
+body {
+    text-align: center; /* Để căn giữa theo chiều ngang */
+    margin: 0; /* Để loại bỏ margin mặc định của body */
+    padding: 0; /* Để loại bỏ padding mặc định của body */
+}
+.centered-img {
+    margin-top: 20px; /* Để căn giữa theo chiều dọc */
+    max-width: 80%; /* Giới hạn chiều rộng tối đa của hình ảnh */
+}

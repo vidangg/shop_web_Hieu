@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.order-history-container {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.order-history-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-item h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.order-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.order-status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.order-status.pending {
+    color: #e67e22;
+}
+
+.order-status.completed {
+    color: #27ae60;
+}
+
+.order-status.cancelled {
+    color: #e74c3c;
+}
+
+.order-details {
+    margin: 10px 0;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 2px 0;
+}
+
+.order-total {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.order-total .total-price {
+    font-weight: bold;
+    color: #b12704;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.order-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.confirm-button {
+    background-color: #007185;
+    color: white;
+}
+
+.confirm-button:hover {
+    background-color: #005f67;
+}
+
+.remove-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.profile-container {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-container h2 {
+    text-align: center;
+}
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="number"],
+.profile-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.profile-container button {
+    color: white;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.profile-container p {
+    text-align: center;
+    margin-bottom: 0px
+}
+.profile-container a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    -webkit-appearance: none; /* Remove default arrow on Safari */
+    -moz-appearance: none; /* Remove default arrow on Firefox */
+    appearance: none; /* Remove default arrow */
+    background-color: #fff; /* Background color */
+    background-image: linear-gradient(to bottom, #f9f9f9, #e9e9e9); /* Gradient background */
+}
+
+select:hover {
+    border-color: #aaa;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4CAF50; /* Focus color */
+}
+
+option {
+    padding: 10px;
+}
